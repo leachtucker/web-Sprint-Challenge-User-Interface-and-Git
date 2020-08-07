@@ -89,6 +89,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    max-width: 100%;
     /* Test Border */
     /* border: 1px solid gray; */
 }
@@ -271,6 +272,24 @@ a {
 
 .middle-content .boxes .box10 {
     background-color: teal;
+}
+
+.section-break {
+    border: 1px solid silver;
+}
+
+.about-page .about-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.about-page .about-row .tile {
+    width: 47%;
+    border-bottom: 1px dashed grey;
+    padding: 2% 0.5%;
+    margin-bottom: 3%;
 }
 
 .bottom-content {
