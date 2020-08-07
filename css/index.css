@@ -158,6 +158,10 @@ h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h2 {
+    font-weight: 550;
+}
+
 p {
     line-height: 1.4;
 }
@@ -183,8 +187,6 @@ a {
 
 .jumbo-container img {
     margin-bottom: 2.5%;
-    -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
     box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
 }
 
@@ -282,6 +284,9 @@ a {
     margin-bottom: 1%;
 }
 
+
+/* About page containers */
+
 .about-page .about-row {
     display: flex;
     flex-wrap: wrap;
@@ -300,8 +305,6 @@ a {
 
 .tile img {
     margin-bottom: 2.5%;
-    -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
     box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.28);
 }
 
@@ -311,9 +314,16 @@ a {
 
 .tile a {
     border: 2px solid gray;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 1% 3%;
     font-size: 0.96rem;
+    box-shadow: inset 0 0 0 0 #31302B;
+    transition: box-shadow ease 0.8s, color ease 0.8s;
+}
+
+.tile a:hover {
+    box-shadow: inset 100px 0 0 0 #959592;
+    color: #fff;
 }
 
 .bottom-content {
