@@ -33,14 +33,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    a. Semantic HTML elements clearly describe their meaning to the browser and developer with their descriptive names. For example, the nav element clearly indicates that the element contains elements used to navigate around the website. We can quickly compare the nav element with the div element, and we will see that the div tag does not provide any additional info about what it is used for.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    a. An element with a display of 'block' will display on an entirely new line--even if there appears to be space on that line for other elements. An element with a display of 'inline' will display in-line along other elements if there is enough space for it--and, it will only be as big as it needs to be for the content it contains. 
 
 3. What are the 4 areas of the box model?
+    a. Content area, padding area, border area, and the margin area.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    a. While using flexbox, the 'align-items' property works on the cross axis. The cross axis changes depending on the flex-direction property.
 
 5. Explain why git is valuable to a team of developers.
+    a. There are several reasons why git could be valuable to a team of devlopers. For starters, git allows multiple individuals to work on separate portions of the same project at once without causing incompatible code. It also allows the team to revert to prior versions of the project--this can be useful if something gets broken or the project takes a different direction. Futhermore, git enables each team member to view the changes that other individuals have made.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
